@@ -46,4 +46,12 @@ public class DatabaseService {
     public List<Author> getAuthorsAliveInYear(Integer year) {
         return authorRepository.findAuthorsAliveInYear(year);
     }
+
+    public List<Book> getAllBooks() {
+        return getAllBooks();
+    }
+
+    public List<Book> getBooksBylanguage(String language) {
+        return getBooksBylanguage(language);
+    }
 }
